@@ -7,7 +7,7 @@ int main()
     cin>>n;
     for(i=2;i<n;i++)
     {
-        for(j=2;j<=sqrt(i)+1;j++)
+        for(j=3;j<=sqrt(i)+1;j++)
         {
             if (i%j==0)
             {
